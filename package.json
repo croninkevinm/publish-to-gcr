@@ -1,0 +1,19 @@
+{
+  "name": "publish-to-gcr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/croninkevinm/publish-to-gcr.git"
+  },
+  "author": "Kevin Cronin",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/croninkevinm/publish-to-gcr/issues"
+  },
+  "homepage": "https://github.com/croninkevinm/publish-to-gcr#readme"
+}
