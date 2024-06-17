@@ -1,7 +1,7 @@
 name: Merge Back
 on:
     pull_request:
-        branches: [master, main]
+        branches: [main]
         types: [closed]
 jobs:
     merge-main-back-to-dev:
@@ -20,5 +20,5 @@ jobs:
                 git fetch --unshallow
                 git checkout dev
                 git pull
-                git merge --no-ff master -m "Auto-merge master back to dev"
+                git merge --no-ff main -m "Auto-merge main back to dev"
                 git push
