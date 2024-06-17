@@ -1,11 +1,9 @@
 name: Merge Back
 on:
-    pull_request:
-        branches: [main]
-        types: [closed]
+  push:
+    branches: [main]
 jobs:
     merge-main-back-to-dev:
-        if: github.event.pull_request.merged == true
         timeout-minutes: 2
         runs-on: ubuntu-latest
 
